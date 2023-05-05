@@ -1,7 +1,7 @@
 from os import path, getcwd, chdir
 import PySimpleGUI as sg
 import subprocess, os, shutil
-import win32security
+import win32security # установить PyWin32 и перезапустить визуа студио
 from winreg import *
 
 registry = ConnectRegistry(None, HKEY_LOCAL_MACHINE)
